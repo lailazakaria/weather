@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="testweather.css">
+    <link rel="stylesheet" href="all.min.css">
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+
+            <header>
+                <input id="city-input" class="search-field" type="text" name="location" placeholder="FIND YOUR CITY ...">
+                <i onclick="displayWeather()" id="search-btn" class="fa fa-search" aria-hidden="true"></i>
+            </header>
+            <h2 class="city-name"></h2>
+            <div class="weather-info">
+                <div class="temperature"></div>
+                <div class="description"></div>
+
+                <div class="hum-cont">
+                    <i class="fas fa-tint"></i>
+                    <div class="humidity"></div>
+                </div>
+                <div class="wind-cont">
+                    <i class="fas fa-wind"></i>
+                    <div class="wind-speed"></div>
+
+                </div>
+                <div class="pre-cont">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <div class="pressure"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="testweather.js"></script>
+</body>
+
+</html>
